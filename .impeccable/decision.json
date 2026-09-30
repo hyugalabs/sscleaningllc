@@ -1,0 +1,125 @@
+{
+  "title": "Choose the visual world for SS Cleaning",
+  "question": "The roll assigned the Supply-Closet Code Chart. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Supply-Closet Code Chart",
+      "kicker": "THE ROLL",
+      "lineage": "laminated janitorial color-code wall charts",
+      "thesis": "The page is the chart pinned inside every pro cleaner's closet: each job gets its own code, and nothing gets mixed up.",
+      "palette": ["#0e2445", "#2f7fd1", "#f4f7fb", "#f2c230", "#2f9e6a"],
+      "materials": ["laminated chart stock", "bold color bars", "pictograms", "grommet corners"],
+      "viewport": "Navy chart header with SS Cleaning, a one-line offer, and Call / Get a quote; below it three color-coded service rows start as the chart's first lines.",
+      "risk": "Code colors beyond navy/blue must stay tags, or it drifts off Shellie's brand.",
+      "raised": [
+        {"from": "gravity-rain-garden", "raise": "Every color on the page means exactly one thing; no decorative color anywhere."},
+        {"from": "night-flight-six-pack", "raise": "The proof strip is a fixed set of four instruments, each owning one true fact: 5.0 Google, BBB A+, insured, workers' comp."},
+        {"from": "art-paul-magazine", "raise": "The sparkle mark appears once per view as a found landmark, never sprinkled."},
+        {"from": "one-bit-desktop", "raise": "Pressed and selected states invert (navy to white), never a vague shade shift."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Work Order No. 0504",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "contractor carbon-copy work order books",
+      "thesis": "The quote request is a real work order: numbered, checkbox services, three-part carbon copies.",
+      "palette": ["#fbfaf5", "#f7e98a", "#f3c4d0", "#15305a", "#c9352b"],
+      "materials": ["NCR carbon paper", "perforation", "ballpoint check marks"],
+      "viewport": "A numbered work-order sheet with the services as checkboxes and the phone as the header line.",
+      "risk": "The direction most trade-service runs land on; familiar to builders, but less fresh for homeowners."
+    },
+    {
+      "id": "challenger-vinyl-wrap",
+      "label": "Service Van Wrap",
+      "verdict": "competitive",
+      "lineage": "printed vinyl vehicle wraps",
+      "thesis": "The page as the SS Cleaning van: phone number at door scale, services as sponsor strips along the sill.",
+      "palette": ["#0e2445", "#2f7fd1", "#ffffff", "#9fd3ff"],
+      "materials": ["gloss vinyl", "panel seams", "decal strips"],
+      "viewport": "Brand art breaking across two panels with a giant phone number and a gloss highlight travelling the seam.",
+      "case": "Holds clarity (the number is unmissable) but loses on identification: a van ad, not a service to trust.",
+      "risk": "Can read as advertising noise if the seams are not disciplined.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-itasha-vinyl-wrap-hero.webp"
+    },
+    {
+      "id": "challenger-art-paul",
+      "label": "Mid-century Magazine Mark",
+      "verdict": "declined",
+      "lineage": "mid-century magazine identity",
+      "thesis": "A strict serif grid with one hidden mark per page.",
+      "palette": ["#111111", "#ffffff", "#2f7fd1"],
+      "materials": ["coated stock", "commissioned illustration"],
+      "viewport": "Masthead over two columns, the mark hidden in the art.",
+      "case": "Homeowners searching for a cleaner do not identify with magazine culture.",
+      "kept": "One mark, used once per view.",
+      "risk": "Precious for a local trade.",
+      "hero": "https://impeccable.style/worlds/cards/brand-identity-canon-art-paul-magazine-program-hero.webp"
+    },
+    {
+      "id": "challenger-six-pack",
+      "label": "Night Instrument Panel",
+      "verdict": "declined",
+      "lineage": "aircraft six-pack gauges",
+      "thesis": "Six gauges, each holding one truth.",
+      "palette": ["#0a0c0f", "#ffffff", "#5bd18b"],
+      "materials": ["matte panel", "luminous dials"],
+      "viewport": "Trust facts as dials.",
+      "case": "Dark cockpit fights a fresh, clean promise.",
+      "kept": "Each proof item owns exactly one fact.",
+      "risk": "Cold."
+    },
+    {
+      "id": "challenger-one-bit",
+      "label": "One-bit Desktop",
+      "verdict": "declined",
+      "lineage": "early one-bit desktop",
+      "thesis": "Windows and dithers.",
+      "palette": ["#000000", "#ffffff"],
+      "materials": ["dither", "pixel chrome"],
+      "viewport": "Services as overlapping windows.",
+      "case": "Novelty over trust for this audience.",
+      "kept": "Inverting pressed states.",
+      "risk": "Gimmick."
+    },
+    {
+      "id": "challenger-daylight",
+      "label": "Daylight Section",
+      "verdict": "declined",
+      "lineage": "architectural daylight sections",
+      "thesis": "Rooms in section, lit by a travelling sunbeam.",
+      "palette": ["#f3f1ea", "#2b2b2b", "#e8b44a", "#6f8fb4"],
+      "materials": ["limewash", "section poche"],
+      "viewport": "A house in section with light moving through.",
+      "case": "Beautiful, but warm gold drifts off the navy brand and the offer gets buried.",
+      "kept": "Tabular numerals for every number.",
+      "risk": "Offer hidden behind the drawing."
+    },
+    {
+      "id": "challenger-rain-garden",
+      "label": "Gravity-Rain Garden",
+      "verdict": "declined",
+      "lineage": "surreal impossible gardens",
+      "thesis": "Color decides which way things fall.",
+      "palette": ["#5b6b63", "#3d7fd6", "#c9453b"],
+      "materials": ["rain", "clouds"],
+      "viewport": "A garden of coded rain.",
+      "case": "Dreamlike surreal has no place in a cleaner's pitch.",
+      "kept": "Color is strictly semantic.",
+      "risk": "Confusing."
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "The clean local-service landing page: photo hero, three service cards, trust row, quote form, done at full craft.",
+    "palette": ["#ffffff", "#0e2445", "#2f7fd1"],
+    "materials": ["clean grid", "service photography"],
+    "viewport": "Photo hero with headline, call button and quote button.",
+    "risk": "Indistinguishable from every other cleaner in Summit County by design."
+  },
+  "steer": true
+}

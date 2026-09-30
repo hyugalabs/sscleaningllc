@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-30T16:19:27.514Z",
+  "title": "Design System: SS Cleaning LLC",
+  "extensions": {
+    "colorMeta": {
+      "desk": {
+        "role": "neutral",
+        "displayName": "Desk Navy",
+        "canonical": "oklch(26% 0.07 259)",
+        "tonalRamp": [
+          "oklch(15% 0.07 259)",
+          "oklch(25% 0.07 259)",
+          "oklch(35% 0.07 259)",
+          "oklch(45% 0.07 259)",
+          "oklch(55% 0.07 259)",
+          "oklch(65% 0.07 259)",
+          "oklch(80% 0.07 259)",
+          "oklch(95% 0.07 259)"
+        ],
+        "note": "Hex in DESIGN.md frontmatter is normative; OKLCH canonical and ramp are approximations synthesized for the panel."
+      },
+      "desk-deep": {
+        "role": "neutral",
+        "displayName": "Desk Shadow",
+        "canonical": "oklch(21% 0.055 258)",
+        "tonalRamp": [
+          "oklch(15% 0.055 258)",
+          "oklch(25% 0.055 258)",
+          "oklch(35% 0.055 258)",
+          "oklch(45% 0.055 258)",
+          "oklch(55% 0.055 258)",
+          "oklch(65% 0.055 258)",
+          "oklch(80% 0.055 258)",
+          "oklch(95% 0.055 258)"
+        ],
+        "note": "Hex in DESIGN.md frontmatter is normative; OKLCH canonical and ramp are approximations synthesized for the panel."
+      },
+      "mist": {
+        "role": "neutral",
+        "displayName": "Carbon Mist",
+        "canonical": "oklch(82.5% 0.035 257)",
+        "tonalRamp": [
+          "oklch(15% 0.035 257)",
+          "oklch(25% 0.035 257)",
+          "oklch(35% 0.035 257)",
+          "oklch(45% 0.035 257)",
+          "oklch(55% 0.035 257)",
+          "oklch(65% 0.035 257)",
+          "oklch(80% 0.035 257)",
+          "oklch(95% 0.035 257)"
+        ],
+        "note": "Hex in DESIGN.md frontmatter is normative; OKLCH canonical and ramp are approximations synthesized for the panel."
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Bond White",
+        "canonical": "oklch(97.3% 0.004 248)",
+        "tonalRamp": [
+          "oklch(15% 0.004 248)",
+          "oklch(25% 0.004 248)",
+          "oklch(35% 0.004 248)",
+          "oklch(45% 0.004 248)",
+          "oklch(55% 0.004 248)",
+          "oklch(65% 0.004 248)",
+          "oklch(80% 0.004 248)",
+          "oklch(95% 0.004 248)"
+        ],
+        "note": "Hex in DESIGN.md frontmatter is normative; OKLCH canonical and ramp are approximations synthesized for the panel."
+      },
+      "paper-shade": {
+        "role": "neutral",
+        "displayName": "Stub Grey",
+        "canonical": "oklch(93.5% 0.009 253)",
+        "tonalRamp": [
+          "oklch(15% 0.009 253)",
+          "oklch(25% 0.009 253)",
+          "oklch(35% 0.009 253)",
+          "oklch(45% 0.009 253)",
+          "oklch(55% 0.009 253)",
+          "oklch(65% 0.009 253)",
+          "oklch(80% 0.009 253)",
+          "oklch(95% 0.009 253)"
+        ],
+        "note": "Hex in DESIGN.md frontmatter is normative; OKLCH canonical and ramp are approximations synthesized for the panel."
+      },
+      "canary": {
+        "role": "secondary",
+        "displayName": "Carbon Canary",
+        "canonical": "oklch(91% 0.12 100)",
+        "tonalRamp": [
+          "oklch(15% 0.12 100)",
+          "oklch(25% 0.12 100)",
+          "oklch(35% 0.12 100)",
+          "oklch(45% 0.12 100)",
+          "oklch(55% 0.12 100)",
+          "oklch(65% 0.12 100)",
+          "oklch(80% 0.12 100)",
+          "oklch(95% 0.12 100)"
+        ],
+        "note": "Hex in DESIGN.md frontmatter is normative; OKLCH canonical and ramp are approximations synthesized for the panel."
+      },
+      "pink": {
+        "role": "secondary",
+        "displayName": "Carbon Pink",
+        "canonical": "oklch(86% 0.055 360)",
+        "tonalRamp": [
+          "oklch(15% 0.055 360)",
+          "oklch(25% 0.055 360)",
+          "oklch(35% 0.055 360)",
+          "oklch(45% 0.055 360)",
+          "oklch(55% 0.055 360)",
+          "oklch(65% 0.055 360)",
+          "oklch(80% 0.055 360)",
+          "oklch(95% 0.055 360)"
+        ],
+        "note": "Hex in DESIGN.md frontmatter is normative; OKLCH canonical and ramp are approximations synthesized for the panel."
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Order-Book Navy Ink",
+        "canonical": "oklch(31% 0.085 260)",
+        "tonalRamp": [
+          "oklch(15% 0.085 260)",
+          "oklch(25% 0.085 260)",
+          "oklch(35% 0.085 260)",
+          "oklch(45% 0.085 260)",
+          "oklch(55% 0.085 260)",
+          "oklch(65% 0.085 260)",
+          "oklch(80% 0.085 260)",
+          "oklch(95% 0.085 260)"
+        ],
+        "note": "Hex in DESIGN.md frontmatter is normative; OKLCH canonical and ramp are approximations synthesized for the panel."
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Faded Print",
+        "canonical": "oklch(48% 0.06 260)",
+        "tonalRamp": [
+          "oklch(15% 0.06 260)",
+          "oklch(25% 0.06 260)",
+          "oklch(35% 0.06 260)",
+          "oklch(45% 0.06 260)",
+          "oklch(55% 0.06 260)",
+          "oklch(65% 0.06 260)",
+          "oklch(80% 0.06 260)",
+          "oklch(95% 0.06 260)"
+        ],
+        "note": "Hex in DESIGN.md frontmatter is normative; OKLCH canonical and ramp are approximations synthesized for the panel."
+      },
+      "pen": {
+        "role": "primary",
+        "displayName": "Ballpoint Blue",
+        "canonical": "oklch(44% 0.2 266)",
+        "tonalRamp": [
+          "oklch(15% 0.2 266)",
+          "oklch(25% 0.2 266)",
+          "oklch(35% 0.2 266)",
+          "oklch(45% 0.2 266)",
+          "oklch(55% 0.2 266)",
+          "oklch(65% 0.2 266)",
+          "oklch(80% 0.2 266)",
+          "oklch(95% 0.2 266)"
+        ],
+        "note": "Hex in DESIGN.md frontmatter is normative; OKLCH canonical and ramp are approximations synthesized for the panel."
+      },
+      "serial": {
+        "role": "tertiary",
+        "displayName": "Numbering-Machine Red",
+        "canonical": "oklch(52% 0.18 29)",
+        "tonalRamp": [
+          "oklch(15% 0.18 29)",
+          "oklch(25% 0.18 29)",
+          "oklch(35% 0.18 29)",
+          "oklch(45% 0.18 29)",
+          "oklch(55% 0.18 29)",
+          "oklch(65% 0.18 29)",
+          "oklch(80% 0.18 29)",
+          "oklch(95% 0.18 29)"
+        ],
+        "note": "Hex in DESIGN.md frontmatter is normative; OKLCH canonical and ramp are approximations synthesized for the panel."
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Ruled Line",
+        "canonical": "oklch(77% 0.03 256)",
+        "tonalRamp": [
+          "oklch(15% 0.03 256)",
+          "oklch(25% 0.03 256)",
+          "oklch(35% 0.03 256)",
+          "oklch(45% 0.03 256)",
+          "oklch(55% 0.03 256)",
+          "oklch(65% 0.03 256)",
+          "oklch(80% 0.03 256)",
+          "oklch(95% 0.03 256)"
+        ],
+        "note": "Hex in DESIGN.md frontmatter is normative; OKLCH canonical and ramp are approximations synthesized for the panel."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only. Condensed caps, width 72."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles written as form headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service line items, copy-sheet titles, the form's printed business name."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "The phone number as the closing statement."
+      },
+      "serial": {
+        "displayName": "Serial",
+        "purpose": "Red numbering-machine order number, tabular."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Paragraphs; 34-36rem intros, 58-60ch detail copy."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Every button and call bar, semi-condensed caps."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Printed field labels, stub text, copy designations, photo captions."
+      },
+      "pen": {
+        "displayName": "Pen",
+        "purpose": "Handwritten entries and annotations, always pen blue, 1.45rem-2rem."
+      }
+    },
+    "fonts": [
+      {
+        "name": "Archivo",
+        "source": "next/font/google, variable, axes: wdth",
+        "cssVar": "--font-archivo -> --font-sans",
+        "widths": {
+          "cond": 72,
+          "semi-cond": 86
+        }
+      },
+      {
+        "name": "Nanum Pen Script",
+        "source": "next/font/google, weight 400",
+        "cssVar": "--font-pen-script -> --font-pen"
+      }
+    ],
+    "shadows": [
+      {
+        "name": "sheet-on-desk",
+        "value": "0 1px 1px rgb(6 18 38 / 0.25), 0 18px 40px -12px rgb(6 18 38 / 0.55)",
+        "purpose": "Every paper sheet, and only paper sheets."
+      }
+    ],
+    "textures": [
+      {
+        "name": "perforation",
+        "value": "height: 6px; background-image: radial-gradient(circle, var(--perf-hole, var(--color-desk)) 2.2px, transparent 2.8px); background-size: 11px 6px; background-repeat: repeat-x",
+        "purpose": "Tear line between stub and sheet; hole color matches what lies behind the sheet."
+      },
+      {
+        "name": "ruled",
+        "value": "background-image: linear-gradient(transparent calc(2.25rem - 1px), var(--color-rule) 1px); background-size: 100% 2.25rem; line-height: 2.25rem",
+        "purpose": "Ruled description box."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The only easing: every pen stroke and paper movement."
+      },
+      {
+        "name": "state-transition",
+        "value": "150ms color",
+        "purpose": "Button and link color changes."
+      },
+      {
+        "name": "draw-check",
+        "value": "320ms stroke-dashoffset 30 -> 0",
+        "purpose": "Ballpoint check drawing into a checkbox."
+      },
+      {
+        "name": "draw-circle",
+        "value": "520ms stroke-dashoffset 280 -> 0",
+        "purpose": "Pen loop around the chosen frequency."
+      },
+      {
+        "name": "fan-copies",
+        "value": "1100ms, delays 200ms / 280ms; canary to translate(10px,12px) rotate(1.6deg), pink to translate(20px,24px) rotate(3.2deg)",
+        "purpose": "Carbon copies fan out once on arrival."
+      },
+      {
+        "name": "tear-off",
+        "value": "900ms; 35% translate(6px,-10px) rotate(0.8deg), 100% translate(90px,120vh) rotate(14deg) opacity 0; origin 30% 0",
+        "purpose": "Signature: the top sheet tears away on send."
+      },
+      {
+        "name": "copy-rise",
+        "value": "700ms translateY(10px -> 0)",
+        "purpose": "Canary customer copy settling into place."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: end states shown, tear-off hidden instantly",
+        "purpose": "Accessibility fallback."
+      }
+    ],
+    "focus": [
+      {
+        "name": "focus-paper",
+        "value": "outline: 2px solid var(--color-pen); outline-offset: 3px"
+      },
+      {
+        "name": "focus-desk",
+        "value": "outline-color: var(--color-canary) inside .on-desk; forms on the desk keep pen blue"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink-filled square action, e.g. Text it to Shellie.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Text it to Shellie</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 20px;font-family:var(--font-sans);font-variation-settings:'wdth' 86;font-size:0.95rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;border:2px solid var(--color-ink);border-radius:0;cursor:pointer;transition:background-color 150ms,color 150ms}.ds-btn:focus-visible{outline:2px solid var(--color-pen);outline-offset:3px}.ds-btn:active{background:var(--color-paper);color:var(--color-ink)}.ds-btn-primary{background:var(--color-ink);color:var(--color-paper)}.ds-btn-primary:hover{background:var(--color-desk-deep)}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Ink-outlined companion action, e.g. Email it instead.",
+      "html": "<button class=\"ds-btn ds-btn-secondary\">Email it instead</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 20px;font-family:var(--font-sans);font-variation-settings:'wdth' 86;font-size:0.95rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;border:2px solid var(--color-ink);border-radius:0;cursor:pointer;transition:background-color 150ms,color 150ms}.ds-btn:focus-visible{outline:2px solid var(--color-pen);outline-offset:3px}.ds-btn:active{background:var(--color-paper);color:var(--color-ink)}.ds-btn-secondary{background:transparent;color:var(--color-ink)}.ds-btn-secondary:hover{background:var(--color-paper)}"
+    },
+    {
+      "name": "Call Button",
+      "kind": "button",
+      "refersTo": "button-call",
+      "description": "Canary phone CTA on the navy desk.",
+      "html": "<div class=\"ds-desk\"><a href=\"#\" class=\"ds-btn-call\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z\"/></svg>Call 234-233-0504</a></div>",
+      "css": ".ds-desk{background:var(--color-desk);padding:24px}.ds-btn-call{display:inline-flex;align-items:center;gap:10px;min-height:56px;padding:0 24px;background:var(--color-canary);color:var(--color-desk);font-family:var(--font-sans);font-variation-settings:'wdth' 86;font-size:1.1rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;text-decoration:none;font-variant-numeric:tabular-nums;transition:background-color 150ms,color 150ms}.ds-btn-call:hover{background:var(--color-paper)}.ds-btn-call:active{background:var(--color-desk);color:var(--color-canary)}.ds-btn-call:focus-visible{outline:2px solid var(--color-canary);outline-offset:3px}"
+    },
+    {
+      "name": "Add to Work Order",
+      "kind": "button",
+      "refersTo": "button-add-to-order",
+      "description": "Outlined line-item action that checks the service on the order.",
+      "html": "<button class=\"ds-btn-add\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg>Add to work order</button>",
+      "css": ".ds-btn-add{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;background:transparent;color:var(--color-ink);border:2px solid var(--color-ink);border-radius:0;font-family:var(--font-sans);font-variation-settings:'wdth' 86;font-size:0.9rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;cursor:pointer;transition:background-color 150ms,color 150ms}.ds-btn-add:hover{background:var(--color-ink);color:var(--color-paper)}.ds-btn-add:active{background:var(--color-paper);color:var(--color-ink)}.ds-btn-add:focus-visible{outline:2px solid var(--color-pen);outline-offset:3px}"
+    },
+    {
+      "name": "Order Field",
+      "kind": "input",
+      "refersTo": "field-entry",
+      "description": "Printed label over a ruled line; the entry writes in ballpoint.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-label\">Customer name</span><input class=\"ds-entry\" value=\"Dana Miller\"></label>",
+      "css": ".ds-field{display:block;max-width:320px;background:var(--color-paper);padding:8px 0}.ds-label{display:block;padding-top:8px;font-family:var(--font-sans);font-variation-settings:'wdth' 86;font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-ink-soft)}.ds-entry{display:block;width:100%;height:2.6rem;border:0;border-bottom:1px solid var(--color-rule);background:transparent;font-family:var(--font-pen);font-size:1.6rem;line-height:1;color:var(--color-pen);outline:none;transition:border-color 150ms}.ds-entry:hover{border-bottom-color:var(--color-ink-soft)}.ds-entry:focus{border-bottom:2px solid var(--color-pen)}.ds-entry[aria-invalid=true]{border-bottom-color:var(--color-serial)}"
+    },
+    {
+      "name": "Pen Checkbox",
+      "kind": "chip",
+      "refersTo": "field-entry",
+      "description": "Square ink box; a ballpoint check overshoots it when chosen.",
+      "html": "<label class=\"ds-check\"><input type=\"checkbox\" checked><span class=\"ds-box\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 13.5c2 1.4 3.6 3.2 5 5.4C11 12 15.5 6 22 1.5\" stroke=\"var(--color-pen)\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>Residential</label>",
+      "css": ".ds-check{position:relative;display:inline-flex;align-items:center;gap:10px;font-family:var(--font-sans);font-size:0.95rem;font-weight:600;color:var(--color-ink);cursor:pointer}.ds-check input{position:absolute;opacity:0;width:1px;height:1px}.ds-box{position:relative;width:1.35rem;height:1.35rem;border:2px solid var(--color-ink);background:var(--color-paper);transition:background-color 150ms}.ds-box svg{position:absolute;top:-8px;left:2px;width:28px;height:28px;overflow:visible;opacity:0}.ds-check input:checked+.ds-box svg{opacity:1}.ds-check:hover .ds-box{background:var(--color-paper-shade)}.ds-check input:focus-visible+.ds-box{outline:2px solid var(--color-pen);outline-offset:2px}"
+    },
+    {
+      "name": "Work Order Sheet",
+      "kind": "custom",
+      "refersTo": "work-order-sheet",
+      "description": "Stub, perforation, printed header with red serial; canary and pink copies beneath.",
+      "html": "<div class=\"ds-desk2\"><div class=\"ds-stack\"><div class=\"ds-copy ds-pink\"></div><div class=\"ds-copy ds-canary\"></div><div class=\"ds-sheet\"><div class=\"ds-stub\">Work order · Quote request</div><div class=\"ds-perf\"></div><div class=\"ds-head\"><strong class=\"ds-name\">SS Cleaning LLC</strong><span class=\"ds-no\"><small>No.</small>0504</span></div><div class=\"ds-body\"><span class=\"ds-lbl\">Date</span><span class=\"ds-pen\">9/30/26</span></div></div></div></div>",
+      "css": ".ds-desk2{background:var(--color-desk);padding:24px 48px 48px 24px}.ds-stack{position:relative;max-width:420px}.ds-copy{position:absolute;inset:0;box-shadow:0 1px 1px rgb(6 18 38 / 0.25),0 18px 40px -12px rgb(6 18 38 / 0.55)}.ds-pink{background:var(--color-pink);transform:translate(20px,24px) rotate(3.2deg)}.ds-canary{background:var(--color-canary);transform:translate(10px,12px) rotate(1.6deg)}.ds-sheet{position:relative;background:var(--color-paper);color:var(--color-ink);box-shadow:0 1px 1px rgb(6 18 38 / 0.25),0 18px 40px -12px rgb(6 18 38 / 0.55)}.ds-stub{background:var(--color-paper-shade);padding:6px 20px;font-family:var(--font-sans);font-variation-settings:'wdth' 86;font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-ink-soft)}.ds-perf{height:6px;background-image:radial-gradient(circle,var(--color-desk) 2.2px,transparent 2.8px);background-size:11px 6px;background-repeat:repeat-x;background-position:center}.ds-head{display:flex;justify-content:space-between;align-items:flex-end;padding:12px 20px 14px;border-bottom:2px solid var(--color-ink)}.ds-name{font-family:var(--font-sans);font-variation-settings:'wdth' 72;font-weight:800;font-size:1.35rem;text-transform:uppercase;line-height:1}.ds-no{text-align:right;font-family:var(--font-sans);font-variation-settings:'wdth' 86;font-weight:600;font-size:1.75rem;letter-spacing:0.06em;line-height:1;color:var(--color-serial);font-variant-numeric:tabular-nums}.ds-no small{display:block;font-size:0.7rem;letter-spacing:0.12em;color:var(--color-ink-soft)}.ds-body{padding:12px 20px 24px}.ds-lbl{display:block;font-family:var(--font-sans);font-variation-settings:'wdth' 86;font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-ink-soft)}.ds-pen{display:block;border-bottom:1px solid var(--color-rule);font-family:var(--font-pen);font-size:1.6rem;line-height:2.4rem;color:var(--color-pen)}"
+    },
+    {
+      "name": "Carbon Copy Sheet",
+      "kind": "card",
+      "refersTo": "carbon-copy-canary",
+      "description": "Perforated stock sheet with condensed title and printed copy designation.",
+      "html": "<div class=\"ds-desk3\"><article class=\"ds-cc\"><div class=\"ds-perf2\"></div><div class=\"ds-cc-body\"><h3>Shellie calls you back</h3><p>She talks through the space, what needs doing, and when, then gives you a quote.</p></div><p class=\"ds-cc-foot\">Canary: office</p></article></div>",
+      "css": ".ds-desk3{background:var(--color-desk);padding:32px}.ds-cc{max-width:320px;background:var(--color-canary);color:var(--color-ink);transform:rotate(0.8deg);box-shadow:0 1px 1px rgb(6 18 38 / 0.25),0 18px 40px -12px rgb(6 18 38 / 0.55)}.ds-perf2{height:6px;background-image:radial-gradient(circle,var(--color-desk) 2.2px,transparent 2.8px);background-size:11px 6px;background-repeat:repeat-x;background-position:center}.ds-cc-body{padding:20px 24px 24px}.ds-cc h3{margin:0;font-family:var(--font-sans);font-variation-settings:'wdth' 72;font-weight:800;font-size:1.9rem;line-height:1;text-transform:uppercase}.ds-cc p{margin:12px 0 0;font-family:var(--font-sans);font-size:1rem;line-height:1.625}.ds-cc .ds-cc-foot{margin:0;padding:8px 24px;border-top:1px solid rgb(22 48 90 / 0.25);font-variation-settings:'wdth' 86;font-size:0.72rem;font-weight:600;text-transform:uppercase;letter-spacing:0.12em;color:var(--color-ink-soft)}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "refersTo": "header-call",
+      "description": "Sticky desk band: wordmark, mist section links, canary-outlined call.",
+      "html": "<header class=\"ds-nav\"><span class=\"ds-word\">SS Cleaning <em>LLC</em></span><nav><a href=\"#\">Services</a><a href=\"#\">How it works</a><a href=\"#\">Service area</a></nav><a class=\"ds-hcall\" href=\"#\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z\"/></svg>234-233-0504</a></header>",
+      "css": ".ds-nav{display:flex;align-items:center;justify-content:space-between;gap:16px;height:64px;padding:0 24px;background:var(--color-desk);color:var(--color-paper);border-bottom:1px solid rgb(255 255 255 / 0.1)}.ds-word{font-family:var(--font-sans);font-variation-settings:'wdth' 72;font-weight:800;font-size:1.15rem;text-transform:uppercase}.ds-word em{font-style:normal;color:var(--color-mist)}.ds-nav nav{display:flex;gap:28px}.ds-nav nav a{font-family:var(--font-sans);font-size:0.9rem;font-weight:500;color:var(--color-mist);text-decoration:none;transition:color 150ms}.ds-nav nav a:hover{color:var(--color-paper)}.ds-nav a:focus-visible{outline:2px solid var(--color-canary);outline-offset:3px}.ds-hcall{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 12px;border:2px solid var(--color-canary);color:var(--color-canary);font-family:var(--font-sans);font-variation-settings:'wdth' 86;font-weight:700;font-size:0.95rem;letter-spacing:0.04em;text-decoration:none;font-variant-numeric:tabular-nums;transition:background-color 150ms,color 150ms}.ds-hcall:hover{background:var(--color-canary);color:var(--color-desk)}"
+    },
+    {
+      "name": "Mobile Call Bar",
+      "kind": "nav",
+      "refersTo": "mobile-bar-call",
+      "description": "Fixed two-cell bottom bar on phones: Call Shellie / Get a quote.",
+      "html": "<div class=\"ds-bar\"><a href=\"#\" class=\"ds-bar-call\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z\"/></svg>Call Shellie</a><a href=\"#\" class=\"ds-bar-quote\">Get a quote</a></div>",
+      "css": ".ds-bar{display:grid;grid-template-columns:1fr 1fr;max-width:390px;border-top:2px solid var(--color-ink)}.ds-bar a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:56px;font-family:var(--font-sans);font-variation-settings:'wdth' 86;font-size:1rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;text-decoration:none}.ds-bar-call{background:var(--color-canary);color:var(--color-desk)}.ds-bar-quote{background:var(--color-ink);color:var(--color-paper)}.ds-bar a:active{background:var(--color-paper);color:var(--color-ink)}.ds-bar a:focus-visible{outline:2px solid var(--color-pen);outline-offset:-4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Carbon-Copy Order Book",
+    "overview": "The site is SS Cleaning's contractor work-order pad, lying on a navy desk. A cool bond-white top sheet carries navy pre-printed lettering in condensed caps; canary and pink carbon copies sit offset underneath it; the customer's entries appear in blue ballpoint; one red numbering-machine serial stamps each order. Every surface on the page is either the desk (navy) or a piece of order-book stock (paper, canary, pink), and every piece of text is either pre-printed (Archivo, pulled narrow) or handwritten (Nanum Pen Script, in pen blue).\n\nDensity is that of a real form: tight ruled fields, hairline rules, heavy 2px and 4px ink rules dividing sections, perforation rows with punched holes where a sheet would tear. Depth is physical, not decorative: sheets cast a paper shadow onto the desk and fan out slightly, and nothing floats for its own sake. The form language is square: no rounded containers, no gloss, no gradients. The only curves are made by a hand (pen checks, a circled choice) or a punch (perforation holes).\n\nMotion is the same physics: checks draw in with a pen stroke, a chosen frequency gets circled, and on send the top sheet tears along its perforation and falls away to reveal the canary customer copy.",
+    "keyCharacteristics": [
+      "Navy desk, three paper stocks (bond white, canary, pink), three inks (navy print, blue ballpoint, red serial).",
+      "Condensed caps for everything printed; handwriting only for what a person would write.",
+      "Square corners everywhere; rules and borders, never pills or cards with radii.",
+      "Paper-on-desk shadow as the only elevation.",
+      "Pen-stroke motion on an expo-out ease; the tear-off as the signature moment."
+    ],
+    "rules": [
+      {
+        "name": "The Three Inks Rule",
+        "body": "Navy prints, blue writes, red numbers. Blue never appears on pre-printed lettering, navy never appears as a handwritten entry, and red is reserved for the serial and errors.",
+        "section": "colors"
+      },
+      {
+        "name": "The Carbon Order Rule",
+        "body": "Stocks stack in fixed order: bond white on top, canary second, pink third. Canary may act as a call-to-action fill; pink never does.",
+        "section": "colors"
+      },
+      {
+        "name": "The Printed vs. Written Rule",
+        "body": "If the form's printer would have set it, it is Archivo in navy caps. If a person would have filled it in, it is Nanum Pen Script in blue. No third voice.",
+        "section": "typography"
+      },
+      {
+        "name": "The Width Axis Rule",
+        "body": "Condensing comes from the `wdth` axis (72 or 86), not from a separate condensed family or negative tracking.",
+        "section": "typography"
+      },
+      {
+        "name": "The Paper Only Rule",
+        "body": "Only a sheet of order-book stock casts a shadow. Buttons, fields, chips, and the header are flat.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** build new surfaces as pieces of order-book stock (bond white, canary, pink) on the navy desk.",
+      "**Do** set every heading in Archivo 800 uppercase at `wdth` 72, and every label, button, and serial at `wdth` 86.",
+      "**Do** use Nanum Pen Script in pen blue for anything a person would write, at 1.45rem or larger.",
+      "**Do** divide content with ink rules (1px, 2px, 4px) and perforation rows instead of boxes and cards.",
+      "**Do** keep the one sheet shadow for paper, and express sequence or layering by offsetting stock.",
+      "**Do** animate with pen strokes and paper physics on `cubic-bezier(0.16, 1, 0.3, 1)`, with a reduced-motion fallback that shows the end state."
+    ],
+    "donts": [
+      "**Don't** round containers, buttons, fields, or images; the only curves are pen strokes and punched holes.",
+      "**Don't** use gradients, gloss, or glows on any surface.",
+      "**Don't** put blue on printed lettering, navy on handwriting, or red on anything but the serial and errors.",
+      "**Don't** use pink as a button or text color; it is the bottom copy only.",
+      "**Don't** add shadows to buttons, fields, or the header, or lift elements on hover."
+    ]
+  }
+}

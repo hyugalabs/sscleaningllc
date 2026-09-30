@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# impeccable review captures
+/.impeccable/review/
+
+# scraped source data, not part of the site
+/dataset_*.json
+/.impeccable/questions/
+/.impeccable/brief-body.md

@@ -1,26 +1,218 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* The desk the order book sits on: SS Cleaning navy */
+  --color-desk: #102746;
+  --color-desk-deep: #0a1b33;
+  --color-mist: #b9c8de;
+  /* Order-book stock */
+  --color-paper: #f4f6f8;
+  --color-paper-shade: #e6eaef;
+  --color-canary: #f6e37c;
+  --color-pink: #f3c3cf;
+  /* Inks */
+  --color-ink: #16305a;
+  --color-ink-soft: #4a5d7c;
+  --color-pen: #1f45c4;
+  --color-serial: #bf3228;
+  --color-rule: #a9b7cb;
+
+  --font-sans: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+  --font-pen: var(--font-pen-script), "Segoe Print", cursive;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    background: var(--color-desk);
+    color-scheme: light;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    caret-color: var(--color-pen);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  ::selection {
+    background: var(--color-canary);
+    color: var(--color-desk);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-pen);
+    outline-offset: 3px;
+  }
+
+  .on-desk :focus-visible {
+    outline-color: var(--color-canary);
+  }
+
+  .on-desk form :focus-visible {
+    outline-color: var(--color-pen);
+  }
+
+  a {
+    text-underline-offset: 0.22em;
+    text-decoration-thickness: 1px;
+  }
+
+  * {
+    scrollbar-color: var(--color-ink) var(--color-paper-shade);
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  /* Pre-printed form lettering: Archivo pulled narrow */
+  .cond {
+    font-variation-settings: "wdth" 72;
+  }
+  .semi-cond {
+    font-variation-settings: "wdth" 86;
+  }
+
+  .tnum {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Tear-here perforation: a row of punched holes */
+  .perf {
+    height: 6px;
+    background-image: radial-gradient(circle, var(--perf-hole, var(--color-desk)) 2.2px, transparent 2.8px);
+    background-size: 11px 6px;
+    background-repeat: repeat-x;
+    background-position: center;
+  }
+
+  /* Ruled lines inside the description box */
+  .ruled {
+    background-image: linear-gradient(transparent calc(2.25rem - 1px), var(--color-rule) 1px);
+    background-size: 100% 2.25rem;
+    background-attachment: local;
+    line-height: 2.25rem;
+  }
+
+  .sheet-shadow {
+    box-shadow:
+      0 1px 1px rgb(6 18 38 / 0.25),
+      0 18px 40px -12px rgb(6 18 38 / 0.55);
+  }
+}
+
+/* Signature moment: the top sheet tears off along the perforation */
+@keyframes tear-off {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0);
+    opacity: 1;
+  }
+  35% {
+    transform: translate3d(6px, -10px, 0) rotate(0.8deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(90px, 120vh, 0) rotate(14deg);
+    opacity: 0;
+  }
+}
+
+@keyframes copy-rise {
+  from {
+    transform: translate3d(0, 10px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes draw-check {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.tearing {
+  animation: tear-off 900ms var(--ease-out-expo) forwards;
+  transform-origin: 30% 0;
+  pointer-events: none;
+}
+
+.copy-rise {
+  animation: copy-rise 700ms var(--ease-out-expo) both;
+}
+
+.check-path {
+  stroke-dasharray: 30;
+  stroke-dashoffset: 30;
+}
+
+.circle-path {
+  stroke-dasharray: 280;
+  stroke-dashoffset: 280;
+  animation: draw-check 520ms var(--ease-out-expo) forwards;
+}
+
+.peer:checked + .check-box .check-path,
+.check-path.is-on {
+  animation: draw-check 320ms var(--ease-out-expo) forwards;
+}
+
+/* Copies fan out from under the top sheet once, on arrival */
+@keyframes fan-canary {
+  from {
+    transform: translate(0, 0) rotate(0);
+  }
+  to {
+    transform: translate(10px, 12px) rotate(1.6deg);
+  }
+}
+@keyframes fan-pink {
+  from {
+    transform: translate(0, 0) rotate(0);
+  }
+  to {
+    transform: translate(20px, 24px) rotate(3.2deg);
+  }
+}
+.fan-canary {
+  animation: fan-canary 1100ms 200ms var(--ease-out-expo) both;
+}
+.fan-pink {
+  animation: fan-pink 1100ms 280ms var(--ease-out-expo) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .tearing {
+    animation: none;
+    opacity: 0;
+  }
+  .copy-rise,
+  .fan-canary,
+  .fan-pink {
+    animation-duration: 1ms;
+    animation-delay: 0ms;
+  }
+  .peer:checked + .check-box .check-path,
+  .check-path.is-on,
+  .circle-path {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
 }
